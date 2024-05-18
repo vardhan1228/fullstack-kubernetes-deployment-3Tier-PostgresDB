@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: flask-backend
-        image: 483216680875.dkr.ecr.us-east-2.amazonaws.com/backend:latest
+        image: 483216680875.dkr.ecr.us-west-2.amazonaws.com/backend:1
           #imagePullPolicy: Never
         ports:
         - containerPort: 5000
